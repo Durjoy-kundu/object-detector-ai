@@ -24,3 +24,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@layer utilities{
+
+
+   .gradient {
+    background-image: linear-gradient(to bottom right, rgb(37 99 235), rgb(147 51 234));
+  }
+
+  .gradient-title {
+    background-image: linear-gradient(to bottom right, rgb(37 99 235), rgb(147 51 234));
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: transparent;
+    background-clip: text;
+  }
+} 
